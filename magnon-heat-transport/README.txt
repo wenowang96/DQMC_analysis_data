@@ -1,3 +1,9 @@
+This folder is for storage of data set for publication Phys. Rev. B 105, L161103, 
+and follow up updata (publication version of data set is in zenodo record https://zenodo.org/record/6012346).
+
+
+
+
 folder calculation/ is the data analysis folder.
 
 alwaysBT_transport-annealing_single-U8.ipynb calculates the thermal conductivities for U=8 on the 8*8 lattice.
@@ -24,3 +30,10 @@ U10tp0_8_n1 is the output for U=10,tp=0,n=1,highest order=8. Other output files 
 
 
 folder plot/ is the folder for the plotting.
+
+
+July 2nd, 2022 update:
+minor improvement in raw data: 
+Several contaminated Markov chains are targetted and removed in the analysis processes.
+Contamination is due to unexpected interruption of writing measurements into h5 files.
+No qualitative changes are caused in the plots and the conclusions in Phys. Rev. B 105, L161103 is not affected.
